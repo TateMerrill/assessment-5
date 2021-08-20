@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    
+    <script>
+      document.getElementById("complimentButton").onclick = function () {
+        axios.get("http://localhost:4000/api/compliment/")
+            .then(function (response) {
+              const data = response.data;
+              alert(data);
+            });
+      };
+      </script>
+      <button id="fortuneButton">Get a fortune</button>
+
+      <script>
+        document.getElementById(fortuneButton).onclick = function () { 
+          axios.get("http://localhost:4000/api/fortune/")
+          .then(function (response) {
+            const data = response.data;
+            alert(data);
+          });
+        };
+        </script>
+      </script>
+      <button id="idleThreatsButton">Idle threats</button>
+      
+     
+      <script>
+        document.getElementById(threatsButton).onclick = function () { 
+          axios.get("http://localhost:4000/api/threat/")
+          .then(function (response) {
+            const data = response.data;
+            alert(data);
+          });
+        };
+        </script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

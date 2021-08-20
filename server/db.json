@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "location": "New Zealand, Hunua Falls",
+        "price": 3500,
+        "imageURL": "https://i.pinimg.com/originals/d6/bf/d3/d6bfd324b88f34e05169479db2e070f7.jpg"
+    },
+    {
+        "id": 2,
+        "location": "Tokyo, Japan",
+        "price": 2500,
+        "imageURL": "https://cache.etips.com/poi/poi337/o/653.jpg"
+    },
+    {
+        "id": 3,
+        "location": "South Africa, Kruger National Park",
+        "price": 2000,
+        "imageURL": "https://th.bing.com/th/id/R.6addbf6938943874bb9e3cacd3cf79a8?rik=fiZ7KRL5SoGBRA&riu=http%3a%2f%2fwww.planetware.com%2fphotos-large%2fSAF%2fsouth-africa-kruger-national-park.jpg&ehk=hcUySXRxv5q1yhQPjk2yq6c9I3PGxmfuNL4aWGJN46A%3d&risl=&pid=ImgRaw&r=0"
+    }
+]
